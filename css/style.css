@@ -65,6 +65,8 @@ img {
   width: calc(100%-55px);
   flex-grow: 1;
   background-color: #1c1d22;
+  border-radius: 10% 0 0 0;
+  margin-top: 5px;
 }
 
 /* Footer */
@@ -74,13 +76,12 @@ img {
   display: flex;
   color: white;
   justify-content: space-around;
-  flex-grow: 1;
-  flex-shrink: 1;
   flex-basis: 0;
   font-size: 9px;
   margin-bottom: 0;
   text-align: center;
   padding-left: 0;
+  padding-top: 14px;
 }
 
 .bi.bi-houses-fill {
@@ -88,19 +89,24 @@ img {
 }
 
 .profile-picture {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   margin-top: 5px;
   margin-left: 2px;
+  margin: 0 auto;
 }
 
 li > div {
   height: 20px;
-  width: 20px;
   color: white;
   font-size: 15px;
 }
 
-.footer {
-  display: flex;
+.secondary > li {
+  flex-basis: calc(100% / 3);
+  text-align: center;
+}
+
+.bi.bi-bell-fill {
+  font-size: 20px;
 }
