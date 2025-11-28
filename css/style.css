@@ -51,7 +51,7 @@ img {
   margin-top: 5px;
 }
 
-ul {
+.primary {
   padding-left: 5px;
   margin-top: 5px;
 }
@@ -68,7 +68,39 @@ ul {
 }
 
 /* Footer */
-.footer {
+.secondary {
   height: 55px;
   background-color: #2d2d34;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  font-size: 9px;
+  margin-bottom: 0;
+  text-align: center;
+  padding-left: 0;
+}
+
+.bi.bi-houses-fill {
+  font-size: 20px;
+}
+
+.profile-picture {
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+li > div {
+  height: 20px;
+  width: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.footer {
+  display: flex;
 }
