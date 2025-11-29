@@ -238,6 +238,10 @@ section {
   bottom: 0;
 }
 /* Footer */
+.footer {
+  font-family: "inter";
+}
+
 .secondary {
   height: 55px;
   background-color: #2d2d34;
