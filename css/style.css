@@ -32,7 +32,10 @@ body {
 
 /* Font */
 
-.inter-simil-discord {
+/* // <weight>: Use a value from 1 to 1000
+// <uniquifier>: Use a unique and descriptive class name */
+
+.inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -46,6 +49,7 @@ body {
   background-color: #141318;
   overflow: hidden;
   padding: 0;
+  font-family: "inter";
 }
 /* Sidebar */
 .sidebar {
@@ -162,6 +166,8 @@ h3 {
 
 .message {
   width: 348px;
+  padding-left: 5px;
+  flex-shrink: 1;
 }
 
 .message.active {
@@ -179,6 +185,9 @@ h4 {
 .time-sent {
   padding-top: 13px;
 }
+.time-sent.hour {
+  margin: 0 12px;
+}
 
 .p-p {
   height: 37px;
@@ -189,7 +198,7 @@ h4 {
 .profile-img {
   margin-left: 3px;
   position: relative;
-  padding-top: 6px;
+  padding-top: 10px;
 }
 
 .status-dot {
@@ -213,17 +222,6 @@ h4 {
 .status-dot.offline {
   background-color: #e65350;
 }
-
-/* button {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  color: white;
-  background-color: #26262d;
-  font-size: 40px;
-  position: sticky;
-  left: 381px;
-} */
 
 button {
   transform: translate(419px, -12px);
